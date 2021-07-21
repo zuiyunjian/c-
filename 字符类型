@@ -1,0 +1,18 @@
+#include <stdio.h>
+//char   字符类型
+int main()
+{
+    char ch = 'A'; //申请一块空间名为ch存储数据字符A
+    //格式  “打印类型”,名称
+    printf("%c\n",ch);  //%c对应的是打印字符格式的数据  \n意思为换行
+    int age = 20;
+    printf("%d\n",age);  //%d对应打印整型十进制格式的数据
+    long long num =99999999999999;
+    printf("%d\n",num);
+    printf("%p\n",num);
+    float f = 5.0;
+    printf("%f\n",f);
+    double d = 3.1415;
+    printf("%lf",d);  //此处可以用%f来打印但是不准确
+    return 0;
+}
